@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-9/root/usr/bin/c++ -fPIC -Ofast -DNDEBUG -pthread -shared -Wl,-soname,libmttest.so -o libmttest.so CMakeFiles/mttest.dir/src/main.cpp.o  _deps/build/masstree/libmasstree.a 

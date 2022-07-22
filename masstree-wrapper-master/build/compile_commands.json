@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/ycyz/masstree-wrapper-master/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++ -Dmain_EXPORTS -I/home/ycyz/masstree-wrapper-master/build/_deps/src -I/home/ycyz/masstree-wrapper-master/src -I/home/ycyz/masstree-wrapper-master/include -Ofast -DNDEBUG -W -Wall -fPIC -std=c++17 -o CMakeFiles/main.dir/src/main.cpp.o -c /home/ycyz/masstree-wrapper-master/src/main.cpp",
+  "file": "/home/ycyz/masstree-wrapper-master/src/main.cpp"
+},
+{
+  "directory": "/home/ycyz/masstree-wrapper-master/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++ -Dphantom_protection_EXPORTS -I/home/ycyz/masstree-wrapper-master/build/_deps/src -I/home/ycyz/masstree-wrapper-master/src -I/home/ycyz/masstree-wrapper-master/include -Ofast -DNDEBUG -W -Wall -fPIC -std=c++17 -o CMakeFiles/phantom_protection.dir/src/phantom_protection.cpp.o -c /home/ycyz/masstree-wrapper-master/src/phantom_protection.cpp",
+  "file": "/home/ycyz/masstree-wrapper-master/src/phantom_protection.cpp"
+},
+{
+  "directory": "/home/ycyz/masstree-wrapper-master/build",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++ -Dmttest_EXPORTS -I/home/ycyz/masstree-wrapper-master/build/_deps/src -I/home/ycyz/masstree-wrapper-master/src -I/home/ycyz/masstree-wrapper-master/include -Ofast -DNDEBUG -fPIC -W -Wall -fPIC -std=c++17 -o CMakeFiles/mttest.dir/src/main.cpp.o -c /home/ycyz/masstree-wrapper-master/src/main.cpp",
+  "file": "/home/ycyz/masstree-wrapper-master/src/main.cpp"
+},
+{
+  "directory": "/home/ycyz/masstree-wrapper-master/build/_deps/build/masstree",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -I/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree -Ofast -DNDEBUG -include /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/config.h -W -Wall -fPIC -std=c++11 -o CMakeFiles/masstree_obj1.dir/json.cc.o -c /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/json.cc",
+  "file": "/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/json.cc"
+},
+{
+  "directory": "/home/ycyz/masstree-wrapper-master/build/_deps/build/masstree",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -I/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree -Ofast -DNDEBUG -include /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/config.h -W -Wall -fPIC -std=c++11 -o CMakeFiles/masstree_obj1.dir/string.cc.o -c /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/string.cc",
+  "file": "/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/string.cc"
+},
+{
+  "directory": "/home/ycyz/masstree-wrapper-master/build/_deps/build/masstree",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -I/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree -Ofast -DNDEBUG -include /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/config.h -W -Wall -fPIC -std=c++11 -o CMakeFiles/masstree_obj1.dir/straccum.cc.o -c /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/straccum.cc",
+  "file": "/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/straccum.cc"
+},
+{
+  "directory": "/home/ycyz/masstree-wrapper-master/build/_deps/build/masstree",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -I/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree -Ofast -DNDEBUG -include /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/config.h -W -Wall -fPIC -std=c++11 -o CMakeFiles/masstree_obj1.dir/str.cc.o -c /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/str.cc",
+  "file": "/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/str.cc"
+},
+{
+  "directory": "/home/ycyz/masstree-wrapper-master/build/_deps/build/masstree",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -I/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree -Ofast -DNDEBUG -include /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/config.h -W -Wall -fPIC -std=c++11 -o CMakeFiles/masstree_obj1.dir/msgpack.cc.o -c /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/msgpack.cc",
+  "file": "/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/msgpack.cc"
+},
+{
+  "directory": "/home/ycyz/masstree-wrapper-master/build/_deps/build/masstree",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -I/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree -Ofast -DNDEBUG -include /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/config.h -W -Wall -fPIC -std=c++11 -o CMakeFiles/masstree_obj1.dir/kvrandom.cc.o -c /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/kvrandom.cc",
+  "file": "/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/kvrandom.cc"
+},
+{
+  "directory": "/home/ycyz/masstree-wrapper-master/build/_deps/build/masstree",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -I/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree -Ofast -DNDEBUG -include /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/config.h -W -Wall -fPIC -std=c++11 -o CMakeFiles/masstree_obj1.dir/compiler.cc.o -c /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/compiler.cc",
+  "file": "/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/compiler.cc"
+},
+{
+  "directory": "/home/ycyz/masstree-wrapper-master/build/_deps/build/masstree",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -I/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree -Ofast -DNDEBUG -include /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/config.h -W -Wall -fPIC -std=c++11 -o CMakeFiles/masstree_obj1.dir/memdebug.cc.o -c /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/memdebug.cc",
+  "file": "/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/memdebug.cc"
+},
+{
+  "directory": "/home/ycyz/masstree-wrapper-master/build/_deps/build/masstree",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/c++  -I/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree -Ofast -DNDEBUG -include /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/config.h -W -Wall -fPIC -std=c++11 -o CMakeFiles/masstree_obj1.dir/kvthread.cc.o -c /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/kvthread.cc",
+  "file": "/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/kvthread.cc"
+},
+{
+  "directory": "/home/ycyz/masstree-wrapper-master/build/_deps/build/masstree",
+  "command": "/opt/rh/devtoolset-9/root/usr/bin/cc  -I/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree -O3 -DNDEBUG -W -Wall -fPIC -o CMakeFiles/masstree_obj2.dir/clp.c.o -c /home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/clp.c",
+  "file": "/home/ycyz/masstree-wrapper-master/build/_deps/src/masstree/clp.c"
+}
+]
