@@ -3,12 +3,20 @@
 
 ## Build && Execute
 
-To run KVell-masstree on CentOS:
+To run KVell-masstree on CentOS7 or Ubuntu18.04:
 
 ```
 cd ~
 git clone https://github.com/ChengyuzeYang/KVell-masstree.git
-cd kvell-test/KVell
+
+# Build masstree-wrapper and create libmttest.so
+cd ./KVell-masstree/masstree-wrapper-master/
+mkdir build
+cd build
+cmake ..
+make
+
+cd ../../kvell-test/KVell
 
 # Requirements
 
