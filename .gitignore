@@ -1,0 +1,8 @@
+/masstree-wrapper-master/build/*
+/kvell-test/KVell/*.swp
+/kvell-test/KVell/*.o
+/kvell-test/KVell/main
+/kvell-test/KVell/microbench
+/kvell-test/KVell/benchcomponents
+/kvell-test/KVell/scripts/parse_log
+/kvell-test/KVell/makefile.dep

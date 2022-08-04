@@ -1,12 +1,13 @@
 CC=clang  #If you use GCC, add -fno-strict-aliasing to the CFLAGS because the Google BTree does weird stuff
 #CFLAGS=-Wall -O0 -ggdb3
-CFLAGS=-O2 -ggdb3 -Wall
+CFLAGS=-O2 -ggdb3 -Wall -fPIC
 
 CXX=g++
-MASSTREE_LINKS=-I /home/ycyz/masstree-wrapper-master/include -include masstree_wrapper.hpp -I /home/ycyz/masstree-wrapper-master/src -include mt_wrapper.h -I /home/ycyz/masstree-wrapper-master/build/_deps/src
+MASSTREE_ROOT=../../masstree-wrapper-master
+MASSTREE_LINKS=-I ${MASSTREE_ROOT}/include -include masstree_wrapper.hpp -I ${MASSTREE_ROOT}/src -include mt_wrapper.h -I ${MASSTREE_ROOT}/build/_deps/src
 CXXFLAGS= ${CFLAGS} -std=c++11 ${MASSTREE_LINKS}
 
-LDLIBS=-L /home/ycyz/masstree-wrapper-master/build -lmttest -lm -lpthread -lstdc++
+LDLIBS=-L ${MASSTREE_ROOT}/build -lmttest -lm -lpthread -lstdc++
 
 INDEXES_OBJ=indexes/rbtree.o indexes/rax.o indexes/art.o indexes/btree.o indexes/masstree.o
 MAIN_OBJ=main.o slab.o freelist.o ioengine.o pagecache.o stats.o random.o slabworker.o workload-common.o workload-ycsb.o workload-production.o utils.o in-memory-index-rbtree.o in-memory-index-rax.o in-memory-index-art.o in-memory-index-btree.o in-memory-index-masstree.o ${INDEXES_OBJ}
