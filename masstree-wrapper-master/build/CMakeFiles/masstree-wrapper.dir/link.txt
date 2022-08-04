@@ -1,1 +1,0 @@
-/opt/rh/devtoolset-9/root/usr/bin/c++ -fPIC -Ofast -DNDEBUG -shared -Wl,-soname,libmasstree-wrapper.so -o libmasstree-wrapper.so "CMakeFiles/masstree-wrapper.dir/src/main.cpp.o" 

@@ -1,1 +1,0 @@
-/opt/rh/devtoolset-9/root/usr/bin/c++ -Ofast -DNDEBUG -Wl,--export-dynamic -rdynamic -pthread CMakeFiles/test.dir/src/test.cpp.o -o bin/test  _deps/build/masstree/libmasstree.a 
