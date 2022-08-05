@@ -327,8 +327,10 @@ static void *worker_slab_init(void *pdata) {
 
    __sync_add_and_fetch(&nb_workers_launched, 1);
 
+#if MEMORY_INDEX == MASSTREE
    extern masstree_t *items_locations[20];
    items_locations[ctx->worker_id] = masstree_create(ctx->worker_id);
+#endif
 
    pid_t x = syscall(__NR_gettid);
    printf("[SLAB WORKER %lu] tid %d\n", ctx->worker_id, x);
