@@ -35,3 +35,11 @@ make
 We adjusted and made masstree-wrapper to a shared library in [libmttest.so](./masstree-wrapper-master/build/libmttest.so). Related work is under the masstree-wrapper-master folder.
 
 For some other details you can refer to repositories mentioned above.
+
+## What's new in 20220812 update
+
+I refer to [masstree-wrapper](https://github.com/wattlebirdaz/masstree-wrapper) written by Riki Otaki and write a new wrapper for [masstree-beta](https://github.com/kohler/masstree-beta).
+
+You can check the code in wrapper(./kvell-test/KVell/indexes/masstree/wrapper.hh). In this wrapper, I create Masstree_manager and Masstree_client to manage issues between main thread and worker threads.
+
+To change the in-memory structures, just check line #16 options.h(./kvell-test/KVell/options.h)
