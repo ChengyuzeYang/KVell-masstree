@@ -11,6 +11,8 @@
 #include "in-memory-index-btree.h"
 #elif MEMORY_INDEX == MASSTREE
 #include "in-memory-index-masstree.h"
+#elif MEMORY_INDEX == ONE_MASSTREE
+#include "in-memory-index-one-masstree.h"
 #endif
 
 #endif

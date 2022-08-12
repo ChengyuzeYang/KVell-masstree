@@ -11,8 +11,9 @@
 #define ART 2
 #define BTREE 3
 #define MASSTREE 4
+#define ONE_MASSTREE 5
 
-#define MEMORY_INDEX MASSTREE
+#define MEMORY_INDEX ONE_MASSTREE
 #define PAGECACHE_INDEX BTREE
 
 /* Queue depth management */
