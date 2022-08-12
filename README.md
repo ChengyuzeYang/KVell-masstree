@@ -40,6 +40,6 @@ For some other details you can refer to repositories mentioned above.
 
 I refer to [masstree-wrapper](https://github.com/wattlebirdaz/masstree-wrapper) written by Riki Otaki and write a new wrapper for [masstree-beta](https://github.com/kohler/masstree-beta).
 
-You can check the code in wrapper(./kvell-test/KVell/indexes/masstree/wrapper.hh). In this wrapper, I create Masstree_manager and Masstree_client to manage issues between main thread and worker threads.
+You can check the code in [wrapper](./kvell-test/KVell/indexes/masstree/wrapper.hh). In this wrapper, I create Masstree_manager and Masstree_client to manage issues between main thread and worker threads.
 
-To change the in-memory structures, just check line #16 options.h(./kvell-test/KVell/options.h)
+To change the in-memory structures, just check line #16 in [options.h](./kvell-test/KVell/options.h)
